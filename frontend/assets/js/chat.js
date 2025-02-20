@@ -16,6 +16,7 @@ $(document).ready(function() {
       scrollInertia: 10,
       timeout: 0
     });
+    $messages.scrollTop($messages.prop("scrollHeight"));
   }
 
   function setDate() {
